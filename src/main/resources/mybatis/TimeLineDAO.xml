@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.boye.api.dao.TimeLineDAO">
+    <select id="listAll" resultType="com.boye.api.model.TimeLine">
+        select  * from timeline
+    </select>
+</mapper>
